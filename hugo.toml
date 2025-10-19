@@ -1,3 +1,77 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://bitget.joinhelpers.com/"
+title = "비트겟 가이드 (2025 최신) | JoinHelpers"
+languageCode = "ko-kr"
+theme = "PaperMod"
+enableRobotsTXT = true
+canonifyURLs = true
+
+[pagination]
+  pagerSize = 12
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true # raw HTML 허용 (버튼/리다이렉트용)
+
+[module]
+  [[module.imports]]
+    path = "github.com/adityatelange/hugo-PaperMod"
+
+[params]
+  env = "production"
+  defaultTheme = "auto"
+  ShowReadingTime = false
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowCodeCopyButtons = true
+  ShowBreadCrumbs = true
+  ShowToc = true
+  comments = false
+  description = "비트겟 가입·수수료·이용·보안 설정까지 한 번에 끝내는 2025 최신 공식 가이드 (10월 한정 이벤트 포함)"
+  author = "JoinHelpers"
+  images = ["images/og-cover.png"]
+
+  # PaperMod Asset
+  [params.assets]
+    favicon = "images/logo-512.png"
+
+  # 홈 상단 인포박스
+  [params.homeInfoParams]
+    Title = "비트겟(Bitget) 거래소 완전 정리"
+    Content = "장점 · 수수료(현물/선물) · 가입 가이드 · 보안 설정까지 한 번에! 🎁 2025년 10월 한정 이벤트 진행 중 — 아래 버튼으로 공식 파트너 링크에서 시작하세요."
+
+  # 선택: 히어로 버튼(프로필 모드 사용 시)
+  # [params.profileMode]
+  #   enabled = true
+  #   title = "Bitget 시작하기"
+  #   subtitle = "JoinHelpers 공식 파트너"
+  #   imageUrl = "images/og-cover.png"
+  #   imageTitle = "Bitget"
+  #   imageWidth = 120
+  #   imageHeight = 120
+  #   [[params.profileMode.buttons]]
+  #     name = "🚀 10월 한정 이벤트로 가입"
+  #     url = "https://partner.bitget.com/bg/UD0PT2?utm_source=joinhelpers&utm_medium=site&utm_campaign=bitget-hero"
+
+[menu]
+  [[menu.main]]
+    name = "가입 방법"
+    url = "/guide/register/"
+    weight = 1
+
+  [[menu.main]]
+    name = "이용 방법"
+    url = "/guide/manual/"
+    weight = 2
+
+  [[menu.main]]
+    name = "수수료"
+    url = "/guide/fees/"
+    weight = 3
+
+  [[menu.main]]
+    name = "이벤트"
+    url = "/guide/event/"
+    weight = 4
