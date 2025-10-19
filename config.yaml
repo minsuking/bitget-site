@@ -1,0 +1,31 @@
+baseURL: "https://bitget.joinhelpers.com/"
+languageCode: "ko-kr"
+title: "Bitget 가이드 (2025 최신) | JoinHelpers"
+theme: "PaperMod"
+
+params:
+  defaultTheme: auto
+  ShowReadingTime: false
+  ShowCodeCopyButtons: true
+  description: "Bitget 가입·이용·수수료·리셋까지 한 번에 끝내는 2025 최신 공식 가이드"
+  author: "JoinHelpers"
+  env: production
+  # 검색엔진에 노출 원치 않는 특정 섹션에선 개별 페이지에 noindex를 줄 겁니다.
+
+menu:
+  main:
+    - name: 가입 방법
+      url: /guide/register/
+      weight: 1
+    - name: 이용 방법
+      url: /guide/manual/
+      weight: 2
+
+# Hugo 기본 sitemap 설정(자동 생성)
+sitemap:
+  changefreq: weekly
+  filename: sitemap.xml
+  priority: 0.5
+
+# 한국 환경에서 좋았던 옵션들
+enableRobotsTXT: true
