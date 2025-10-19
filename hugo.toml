@@ -15,10 +15,6 @@ canonifyURLs = true
   [markup.goldmark.renderer]
     unsafe = true # raw HTML 허용 (버튼/리다이렉트용)
 
-[module]
-  [[module.imports]]
-    path = "github.com/adityatelange/hugo-PaperMod"
-
 [params]
   env = "production"
   defaultTheme = "auto"
