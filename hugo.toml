@@ -51,23 +51,23 @@ canonifyURLs = true
   #     name = "🚀 10월 한정 이벤트로 가입"
   #     url = "https://partner.bitget.com/bg/UD0PT2?utm_source=joinhelpers&utm_medium=site&utm_campaign=bitget-hero"
 
-[menu]
-  [[menu.main]]
-    name = "가입 방법"
-    url = "/guide/register/"
-    weight = 1
-
-  [[menu.main]]
-    name = "이용 방법"
-    url = "/guide/manual/"
-    weight = 2
-
-  [[menu.main]]
-    name = "수수료"
-    url = "/guide/fees/"
-    weight = 3
-
-  [[menu.main]]
-    name = "이벤트"
-    url = "/guide/event/"
-    weight = 4
+# [menu]
+#   [[menu.main]]
+#     name = "가입 방법"
+#     url = "/guide/register/"
+#     weight = 1
+# 
+#   [[menu.main]]
+#     name = "이용 방법"
+#     url = "/guide/manual/"
+#     weight = 2
+# 
+#   [[menu.main]]
+#     name = "수수료"
+#     url = "/guide/fees/"
+#     weight = 3
+# 
+#   [[menu.main]]
+#     name = "이벤트"
+#     url = "/guide/event/"
+#     weight = 4
