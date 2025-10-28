@@ -81,7 +81,7 @@ draft: false
      class="bgt-btn"
      target="_blank"
      rel="noopener nofollow sponsored">
-    Bitget 공식 홈페이지 열기 (추천코드 자동 적용)
+    Bitget 공식 홈페이지 열기
   </a>
 </div>
 
