@@ -12,15 +12,6 @@ params:
   env: production
   # 검색엔진에 노출 원치 않는 특정 섹션에선 개별 페이지에 noindex를 줄 겁니다.
 
-menu:
-  main:
-    - name: 가입 방법
-      url: /guide/register/
-      weight: 1
-    - name: 이용 방법
-      url: /guide/manual/
-      weight: 2
-
 # Hugo 기본 sitemap 설정(자동 생성)
 sitemap:
   changefreq: weekly
@@ -29,3 +20,5 @@ sitemap:
 
 # 한국 환경에서 좋았던 옵션들
 enableRobotsTXT: true
+
+mainSections: []

@@ -9,12 +9,6 @@ draft: false
 
 글로벌 암호화폐 거래소 Bitget(비트겟)의 가입 절차, KYC 인증 과정, 주요 기능 및 이용 시 유의사항을 정리한 정보 제공용 콘텐츠입니다. 투자 권유 목적이 아닙니다.
 
-<a href="https://partner.bitget.com/bg/UD0PT2"
-   target="_blank"
-   rel="noopener nofollow sponsored">
-  <img src="/images/logo.png" alt="Bitget 가입 절차 목차 (모바일 웹 기준)" style="max-width:100%; border-radius:12px;">
-</a>
-
 ---
 
 ## 1️⃣ 모바일(크롬/사파리)에서 웹으로 가입하기
@@ -93,7 +87,6 @@ draft: false
 
 ---
 
-#Bitget #비트겟 #Bitget가입 #Bitget인증 #KYC #모바일웹가입 #크롬가입 #암호화폐교육 #JoinHelpers
 
 <style>
 /* Bitget 스타일 CTA 버튼 (브랜드 톤) */
